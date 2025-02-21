@@ -1,9 +1,8 @@
-const texto =  document.createElement("h1")
-texto.innerText = "Consejos para sobrevivir a teacher Irvin"
+document.getElementById("contenido").innerHTML = "Consejos para sobrevivir al teacher Irvin"
 
-document.body.appendChild(texto);
+//Consejo 1
+const li = document.createElement("li")
+const text = document.createTextNode("Consejo 1: Pon atencion en clase, pero diviertete, ¡Con confianza!")
 
-const lista = document.createElement("li")
-lista.innerText = "Ser puntual con las tareas"
-
-document.body.appendChild(lista);
+li.appendChild(text)
+document.body.appendChild(li)
