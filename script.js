@@ -20,3 +20,7 @@ const text3 = document.createTextNode("Consejo 3: Si dice que se vienen cositas,
  
 li3.appendChild(text3)
 document.body.appendChild(li3)
+
+function sorpresa(){
+    document.getElementById("contenido").setAttribute("class", "color")
+}
