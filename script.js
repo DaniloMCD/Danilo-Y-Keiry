@@ -13,3 +13,10 @@ const text2 = document.createTextNode("Consejo 2: Siempre entrega las taras punt
 
 li2.appendChild(text2)
 document.body.appendChild(li2)
+
+//Consejo 3
+const li3 = document.createElement("li")
+const text3 = document.createTextNode("Consejo 3: Si dice que se vienen cositas, preocupense, o no?")
+ 
+li3.appendChild(text3)
+document.body.appendChild(li3)
